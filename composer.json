@@ -1,0 +1,14 @@
+{
+    "name": "webpractik/php_code_style",
+    "description": "PHP Code Style",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Иван Поддубный",
+            "email": "ip@webpractik.ru"
+        }
+    ],
+    "require": {},
+    "version": "1.0.0"
+}
