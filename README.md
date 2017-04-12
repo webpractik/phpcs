@@ -11,9 +11,7 @@
 ## Установка
 Устанавливаем глобально в систему. Не забываем что у вас в систем должен быть прописан path к /vendor/bin/
 ```bash
-composer global require squizlabs/php_codesniffer
-composer global require friendsofphp/php-cs-fixer
-composer global require webpractik/php_code_style:dev-master
+composer global require webpractik/php_code_style
 ```
 
 Устанавливаем путь к стандарту по умолчанию для phpcs
