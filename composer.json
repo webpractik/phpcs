@@ -9,6 +9,9 @@
             "email": "ip@webpractik.ru"
         }
     ],
-    "require": {},
-    "version": "1.0.0"
+    "require": {
+        "squizlabs/php_codesniffer": "*",
+        "friendsofphp/php-cs-fixer": "*"
+    },
+    "version": "1.0.4"
 }
