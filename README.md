@@ -20,6 +20,7 @@ composer global require webpractik/php_code_style:dev-master
 ```bash
 phpcs --config-set installed_paths "~/AppData/Roaming/Composer/vendor/webpractik/php_code_style"
 ```
+Если вы правильно сделали, то при наборе в консоли `phpcs -i` у вам должен появиться стандарт Webpractik среди прочих.
 
 Примечание: иногда может некорректно на ~ реагировать, и прийдется прописать полный путь к файлу. Может быть проблема если у вас в имени есть пробел. Решается симлинком.
 
