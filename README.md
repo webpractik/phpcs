@@ -1,6 +1,6 @@
 # Webpractik PHP Code standarts
 
-Стандарт наследуется от @PSR-2 за исключением:
+Стандарт наследуется от [@PSR-2](http://www.php-fig.org/psr/psr-2/) ([рус](https://svyatoslav.biz/misc/psr_translation/#_PSR-2)) за исключением:
 - Табы вместо пробелов
 - Скобка у методов и функций в стиле Kernighan & Ritchie
 
