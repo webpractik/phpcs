@@ -26,6 +26,9 @@ phpcs --config-set installed_paths "~/AppData/Roaming/Composer/vendor/webpractik
 
 ## Sublime Text
 Т.к. для phpstorm конфиги описаны в рунете, описано подключение только для sublimeText.
+
+Устанавливаем [sublime-phpcs](http://benmatselby.github.io/sublime-phpcs/)
+
 Пример конфига для windows:
 ```json
 {
