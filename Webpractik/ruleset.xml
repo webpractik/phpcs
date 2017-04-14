@@ -8,6 +8,9 @@
 
 		<!-- Отключаем перенос скобки у функций -->
 		<exclude name="Generic.Functions.OpeningFunctionBraceBsdAllman"/>
+		<exclude name="Generic.Functions.OpeningFunctionBraceBsdAllmanSniff"/>
+
+		<exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing"/>
 	</rule>
 
 	<!-- Утверждаем правильный перенос скобки -->
