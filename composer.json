@@ -13,5 +13,5 @@
         "squizlabs/php_codesniffer": "*",
         "friendsofphp/php-cs-fixer": "*"
     },
-    "version": "1.0.4"
+    "version": "1.0.5"
 }
