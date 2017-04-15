@@ -3,18 +3,16 @@
 	<description>The Webpractik coding standard.</description>
 
 	<rule ref="PSR2">
-		<!-- Отключаем пробелы -->
+		<!-- Разрешаем Табы -->
 		<exclude name="Generic.WhiteSpace.DisallowTabIndent"/>
 
 		<!-- Отключаем перенос скобки у функций -->
-		<exclude name="Generic.Functions.OpeningFunctionBraceBsdAllman"/>
-		<exclude name="Generic.Functions.OpeningFunctionBraceBsdAllmanSniff"/>
-
-		<exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing"/>
+		<exclude name="Squiz.Functions.MultiLineFunctionDeclaration"/>
 	</rule>
 
 	<!-- Утверждаем правильный перенос скобки -->
 	<rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie"/>
 
+	<!-- Запрещаем использовать пробелы в качестве идентации -->
 	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
 </ruleset>
