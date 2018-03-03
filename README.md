@@ -1,8 +1,8 @@
 # Webpractik PHP Code standarts
 
 Стандарт наследуется от [@PSR-2](http://www.php-fig.org/psr/psr-2/) ([рус](https://svyatoslav.biz/misc/psr_translation/#_PSR-2)) за исключением:
-- Табы вместо пробелов
-- Скобка у методов и функций в стиле Kernighan & Ritchie
+- Длина строки (шаблоны в Bitrix сложно валидировать)
+- Отключение требования не использовать пользовательский код вместе с классами (в Bitrix нужно порой вызывать модуль или компонент перед определением класса в связи со своей сиестемой autoload)
 
 Репозиторий содержит в себе
 1. Стандарт для [phpcs](https://github.com/squizlabs/PHP_CodeSniffer)
