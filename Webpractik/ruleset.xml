@@ -1,18 +1,12 @@
 <?xml version="1.0"?>
 <ruleset name="Webpractik">
-	<description>The Webpractik coding standard.</description>
+	<description>The Webpractik Bitrix coding standard.</description>
 
 	<rule ref="PSR2">
-		<!-- Разрешаем Табы -->
-		<exclude name="Generic.WhiteSpace.DisallowTabIndent"/>
+		<!-- Bitrix: даем возможность в компонентах подключать компоненты и модули вне класса -->
+		<exclude name="PSR1.Files.SideEffects"/>
 
-		<!-- Отключаем перенос скобки у функций -->
-		<exclude name="Squiz.Functions.MultiLineFunctionDeclaration"/>
+		<!-- Отключаем проверку длины строки =( -->
+		<exclude name="Generic.Files.LineLength"/>
 	</rule>
-
-	<!-- Утверждаем правильный перенос скобки -->
-	<rule ref="Generic.Functions.OpeningFunctionBraceKernighanRitchie"/>
-
-	<!-- Запрещаем использовать пробелы в качестве идентации -->
-	<rule ref="Generic.WhiteSpace.DisallowSpaceIndent"/>
 </ruleset>
