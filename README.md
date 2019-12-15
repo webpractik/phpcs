@@ -17,10 +17,10 @@ composer global require webpractik/php_code_style
 Устанавливаем путь к стандарту по умолчанию для phpcs
 ```bash
 # linux
-phpcs --config-set installed_paths "~/.config/composer/vendor/webpractik/php_code_style"
+phpcs --config-set installed_paths "$HOME/.config/composer/vendor/webpractik/php_code_style"
 
 # linux kde
-phpcs --config-set installed_paths ~/.composer/vendor/webpractik/php_code_style
+phpcs --config-set installed_paths $HOME/.composer/vendor/webpractik/php_code_style
 
 # windows
 phpcs --config-set installed_paths "~/AppData/Roaming/Composer/vendor/webpractik/php_code_style"
