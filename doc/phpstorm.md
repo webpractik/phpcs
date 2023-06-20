@@ -38,7 +38,7 @@
 
       ![Пример настройки](https://w6p.ru/MmU4Zj.png)
 
-## PHP_CodeSniffer
+## PHP CS Fixer
 
 1. В разделе ```File | Settings | PHP | Quality Tools | PHP CS Fixer | Configuration```
     - PHP CS Fixer path указываем путь к бинарнику phpstorm, проверив корректность нажав validate.
