@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <ruleset name="Webpractik">
-	<description>The Webpractik Bitrix coding standard.</description>
+    <description>The Webpractik Bitrix coding standard.</description>
 
-	<rule ref="PSR2">
-		<!-- Bitrix: даем возможность в компонентах подключать компоненты и модули вне класса -->
-		<exclude name="PSR1.Files.SideEffects"/>
+    <rule ref="PSR12">
+        <!-- Bitrix: даем возможность в компонентах подключать компоненты и модули вне класса -->
+        <exclude name="PSR1.Files.SideEffects"/>
 
-		<!-- Отключаем проверку длины строки =( -->
-		<exclude name="Generic.Files.LineLength"/>
-	</rule>
+        <!-- Отключаем проверку длины строки =( -->
+        <exclude name="Generic.Files.LineLength"/>
+    </rule>
 </ruleset>
